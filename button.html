@@ -1,0 +1,42 @@
+<script>
+	function add ()
+	{
+		var n1=parseInt (document.getElementById ("txtn1").value);
+		var n2=parseInt (document.getElementById ("txtn2").value);
+		document.write(n1+n2);
+		
+	}
+	function sub ()
+	{
+		var n1=parseInt (document.getElementById ("txtn1").value);
+		var n2=parseInt (document.getElementById ("txtn2").value);
+		document.write(n1-n2);
+		
+	}
+	function mul ()
+	{
+		var n1=parseInt (document.getElementById ("txtn1").value);
+		var n2=parseInt (document.getElementById ("txtn2").value);
+		document.write(n1*n2);
+		
+	}
+	function div ()
+	{
+		var n1=parseInt (document.getElementById ("txtn1").value);
+		var n2=parseInt (document.getElementById ("txtn2").value);
+		document.write(n1/n2);
+		
+	}
+	
+	
+</script>
+
+<form>
+	<input type="text"  id="txtn1"  placeholder="Enter No.1"> </br>
+	<input type="text"  id="txtn2"  placeholder="Enter No.2"> </br>
+	<input type="button"  value="+"  onclick="add()">
+	<input type="button"  value="-"  onclick="sub()">
+	<input type="button"  value="*"  onclick="mul()">
+	<input type="button"  value="/"  onclick="div()">
+
+</form>	
